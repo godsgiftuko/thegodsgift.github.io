@@ -1,0 +1,34 @@
+<!-- javascript -->
+<script src="/public/js/bootstrap.bundle.min.js"></script>
+<!-- tobii js -->
+<script src="/public/js/tobii.min.js"></script>
+<!-- SLIDER -->
+<script src="/public/js/tiny-slider.js "></script>
+<!-- Contact -->
+<script src="/public/js/contact.js "></script>
+<!-- Icons -->
+<script src="/public/js/feather.min.js"></script>
+<!-- Switcher -->
+<script src="/public/js/switcher.js"></script>
+<!-- Main Js -->
+<script src="/public/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+<script src="/public/app/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+<script src="/public/app/main.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+<script type="text/javascript">
+    function element ($) {
+        if (!$($).val()) 
+            {{log '' }} 
+            return 
+        return $($).val()
+    }
+
+    function notification ({ response } = {}) {
+        {{log response}}
+    }
+
+    function parseData ({ ...elements } = {}) {
+        return JSON.stringify({ ...elements })
+    }
+
+
+</script>
