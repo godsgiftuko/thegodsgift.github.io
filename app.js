@@ -48,6 +48,7 @@
     res.status(err.status || 500)
     res.render('templates/error', {
       data: {
+        title: 'Sever error',
         message: err.message,
         error: req.app.get('env') === 'development' ? err : {}
       }
